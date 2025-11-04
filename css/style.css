@@ -1,0 +1,79 @@
+
+/* Reset & 기본 스타일 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+/* 헤더 */
+.site-header {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px 0;
+}
+.site-header .container h1 {
+  margin-bottom: 5px;
+}
+.site-header .site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.site-header .site-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.site-header .site-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* 섹션 스타일 */
+.section {
+  padding: 60px 0;
+}
+.section h2 {
+  margin-bottom: 20px;
+  color: #003366;
+}
+.section p, .section ul {
+  margin-bottom: 20px;
+}
+.section ul li {
+  margin-bottom: 10px;
+}
+
+/* 멤버 카드 */
+.members-section .member {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 600px;
+}
+
+/* 연락처 */
+.contact-section p {
+  margin-bottom: 10px;
+}
+
+/* 푸터 */
+.site-footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
